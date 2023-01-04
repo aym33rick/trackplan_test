@@ -1,0 +1,30 @@
+button {
+    background-color: #ff9f2e;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin: 0px 20px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+button:hover {
+    background-color: #51616e;
+}
+
+button:disabled {
+    background-color: #c1c1c1;
+}
+
+input {
+    height: 2rem;
+    margin: 0px 20px;
+}
+
+.center-form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

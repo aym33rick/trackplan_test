@@ -1,0 +1,21 @@
+.center-form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table, td {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+}
